@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "New_Project"
+  description: "1234"
+  annotations:
+    github.com/project-slug: backstage-dummy-org/Backstage Tutorial 
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/spp-sml"
